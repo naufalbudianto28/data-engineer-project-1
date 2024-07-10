@@ -1,0 +1,47 @@
+===
+File ini berisikan:
+• URL dataset
+• Syntax DDL
+• Syntax DML
+===
+
+1. URL dataset
+https://www.kaggle.com/datasets/swathiunnikrishnan/amazon-consumer-behaviour-dataset
+
+
+2. Syntax DDL
+CREATE TABLE table_m3 (
+    "Timestamp" VARCHAR,
+	"age" INTEGER,
+	"Gender" VARCHAR,
+	"Purchase_Frequency" VARCHAR,
+	"Purchase_Categories" VARCHAR,
+	"Personalized_Recommendation_Frequency" VARCHAR,
+	"Browsing_Frequency" VARCHAR,
+	"Product_Search_Method" VARCHAR,
+	"Search_Result_Exploration" VARCHAR,
+	"Customer_Reviews_Importance" INTEGER,
+	"Add_to_Cart_Browsing" VARCHAR,
+	"Cart_Completion_Frequency" VARCHAR,
+	"Cart_Abandonment_Factors" VARCHAR,
+	"Saveforlater_Frequency" VARCHAR,
+	"Review_Left" VARCHAR,
+	"Review_Reliability" VARCHAR,
+	"Review_Helpfulness" VARCHAR,
+	"Personalized_Recommendation_Frequency " INTEGER,
+	"Recommendation_Helpfulness" VARCHAR,
+	"Rating_Accuracy " INTEGER,
+	"Shopping_Satisfaction" INTEGER,
+	"Service_Appreciation" VARCHAR,
+	"Improvement_Areas" VARCHAR
+);
+
+*Note*
+Jika ada spasi setelah nama kolom ataupun terdapat kolom yang memiliki nama yang sama, hal tersebut sesuai dengan dataset aslinya.
+
+
+3. Syntax DML
+\COPY table_m3 FROM '/Users/Naufal''s/Downloads/data_raw.csv' DELIMITER ',' CSV HEADER;
+
+*Note*
+Syntax di atas dijalankan di psql.
