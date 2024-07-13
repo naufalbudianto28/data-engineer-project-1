@@ -27,7 +27,8 @@ The survey results uncovered numerous factors affecting the decrease in customer
 
 * Python
 * NoSQL 
-* PostgreSQL 
+* PostgreSQL
+* Docker 
 * Apache Airflow 
 * ElasticSearch 
 * Kibana (Visualization Tool)
