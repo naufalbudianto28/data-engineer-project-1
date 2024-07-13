@@ -16,7 +16,7 @@ The survey results uncovered numerous factors affecting the decrease in customer
 
 * Data Engineer
 * Data Streamline
-* ETL
+* ETL / ELT
 * Data Analysis
 * Data Visualization (EDA)
 * Data Validation
