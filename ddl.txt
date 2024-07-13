@@ -1,8 +1,8 @@
 ===
-File ini berisikan:
-• URL dataset
-• Syntax DDL
-• Syntax DML
+The file contains:
+- Dataset URL
+- DDL Syntax
+- DML Syntax
 ===
 
 1. URL dataset
@@ -37,11 +37,11 @@ CREATE TABLE table_m3 (
 );
 
 *Note*
-Jika ada spasi setelah nama kolom ataupun terdapat kolom yang memiliki nama yang sama, hal tersebut sesuai dengan dataset aslinya.
+If there are spaces after column names or if there are columns with the same name, it matches the original dataset.
 
 
 3. Syntax DML
 \COPY table_m3 FROM '/Users/Naufal''s/Downloads/data_raw.csv' DELIMITER ',' CSV HEADER;
 
 *Note*
-Syntax di atas dijalankan di psql.
+The syntax above is executed in PostgreSQL (psql).

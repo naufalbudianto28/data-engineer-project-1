@@ -15,6 +15,7 @@ The survey results uncovered numerous factors affecting the decrease in customer
 ## Skill 
 
 * Data Engineer
+* Data Streamline
 * ETL
 * Data Analysis
 * Data Visualization (EDA)
